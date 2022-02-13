@@ -12,7 +12,13 @@
 
 ### Way 1 Docker 
 
-Simply copy code below
+Build image by yourself
+```bash
+docker build -t easy_sts .
+docker run -d -p 61111:81 easy_sts
+```
+
+Or just simply copy code below
 ```
 docker run -d -p 61111:81 tianrking/fastapi_sts:v0.4
 ```
