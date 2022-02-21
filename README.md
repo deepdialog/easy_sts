@@ -6,7 +6,7 @@
 |  ----  | ----  | ----  | ----  |----|
 | sts  | /sts | get |test| ✅|
 | ...  | /sts/ |get|text->vector|✅|
-| ...  | /api/sts/ |post|vector->text|✅|
+| ...  | /api/sts/ |post|text->vector|✅|
 
 ## Deploy
 
